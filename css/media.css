@@ -1,0 +1,159 @@
+
+@media(min-width:991.98px) and (max-width:1200.98px){
+    .header p {
+        padding: 0 110px;
+    }
+}
+@media(min-width:767.98px) and (max-width:991.98px){
+    .fa.fa-bars {
+        color: antiquewhite;
+        font-size: 25px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    .navbar-nav.ms-auto.mb-2.mb-lg-0 {
+        background-color: #9E8A78;
+    }
+    .header p {
+        padding: 0px 150px;
+    }
+
+    .banner-text h1 {
+        padding-right: 50px;
+    }
+    .banner-text p {
+        padding-right: 120px;
+    }
+    .header p {
+        padding: 0px 50px;
+    }
+    .right-about p {
+        padding-right: 102px;
+        text-align: justify;
+    }
+    .item-feedback p {
+        text-align: justify;
+        padding-right: 80px;
+    }
+}
+@media(min-width:575.98px) and (max-width:767.98px){
+    .fa.fa-bars {
+        color: antiquewhite;
+        font-size: 25px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    .navbar-nav.ms-auto.mb-2.mb-lg-0 {
+        background-color: #9E8A78;
+    }
+    .header p {
+        padding: 0 20px;
+    }
+    .countdown-header span {
+        -webkit-animation: MISSION-HOVER 2.5s infinite;
+        -moz-animation: MISSION-HOVER 2.5s infinite;
+        -o-animation: MISSION-HOVER 2.5s infinite;
+        animation: MISSION-HOVER 2.5s infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease;
+    }
+    @keyframes MISSION-HOVER {
+
+        0%,
+        100% {
+            font-size: 32px;
+            color: white;
+        }
+    
+        50% {
+            font-size: 32px;
+            color: #bffcff;
+            letter-spacing: 3px;
+            text-shadow: 0px 0px 30px rgba(191, 252, 255, 1);
+
+        }
+    }
+    .mid{
+        border:none
+    }
+    .mid-light{
+        border:none
+    }
+    .filter-btn ul li {
+        margin-bottom: 30px;
+    }
+    
+}
+@media(max-width:575.98px){
+    .fa.fa-bars {
+        color: antiquewhite;
+        font-size: 25px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-top: 2px;
+        padding-bottom: 6px;
+    }
+    .navbar-nav.ms-auto.mb-2.mb-lg-0 {
+        background-color: #9E8A78;
+    }
+    .banner-text h1 {
+        font-size: 60px;
+    }
+    /*======about section starts here========*/
+    .header p {
+        padding: 0;
+        text-align: justify;
+    }
+    .right-about h3 {
+        font-size: 55px;
+    }
+    .right-about p {
+        padding-right: 0;
+        text-align: justify;
+    }
+    /*======about section ends here========*/
+    .countdown-header span {
+        -webkit-animation: MISSION-HOVER 2.5s infinite;
+        -moz-animation: MISSION-HOVER 2.5s infinite;
+        -o-animation: MISSION-HOVER 2.5s infinite;
+        animation: MISSION-HOVER 2.5s infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease;
+    }
+    @keyframes MISSION-HOVER {
+
+        0%,
+        100% {
+            font-size: 40px;
+            color: white;
+            letter-spacing: 3px;
+        }
+    
+        50% {
+            color: #bffcff;
+            letter-spacing: 5px;
+            text-shadow: 0px 0px 30px rgba(191, 252, 255, 1);
+        }
+    }
+    .mid{
+        border:none
+    }
+    .mid-light{
+        border:none
+    }
+    /*======service section starts here========*/
+    .filter-btn ul li {
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+    /*======service section ends here========*/
+    /*======testimonial section starts here ========*/
+    .item-feedback p {
+        text-align: justify;
+    }
+    /*======testimonial section ends here========*/   
+}
